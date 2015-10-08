@@ -29,7 +29,7 @@ void setup () {
 
 void draw() {
    image(bg1Img,0,0);
-   image(bg2Img,0,0);
+   //image(bg2Img,0,0);
    image(fighterImg,580,200);
    image(hpImg,30,20);
    image(treasureImg,a,b);
