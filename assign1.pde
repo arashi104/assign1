@@ -34,10 +34,10 @@ void draw() {
    image(fighterImg,580,200);
    image(treasureImg,a,b);
    image(enemyImg,x,c);
-   image(hpImg,30,20);
-  fill(255,0,0);
-   rect(45,30,d,15);
-    
+   fill(255,0,0);
+   rect(30,30,d,13);
+  image(hpImg,30,20);
+
    // your code
 x +=2;
 x%=650;
