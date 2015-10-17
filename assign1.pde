@@ -38,5 +38,5 @@ void draw() {
    rect(45,30,d,15);
    // your code
 x +=2;
-x%=550;
+// x%=550;
 }
