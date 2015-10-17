@@ -35,7 +35,7 @@ void draw() {
    image(treasureImg,a,b);
    image(enemyImg,x,c);
    fill(255,0,0);
-   rect(30,30,d,20);
+   rect(35,30,d,35);
   image(hpImg,30,20);
 
    // your code
