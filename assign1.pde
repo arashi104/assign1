@@ -19,9 +19,9 @@ void setup () {
   hpImg = loadImage("img/hp.png");
   treasureImg = loadImage("img/treasure.png");
   
-  a = floor(random(0,640));
-  b = floor(random(0,480));
-  c = floor(random(0,480));
+  a = floor(random(10,630));
+  b = floor(random(10,470));
+  c = floor(random(10,470));
   d = floor(random(30,195));
    
   // your code
@@ -35,8 +35,8 @@ void draw() {
    image(enemyImg,x,c);
    
    fill(255,0,0);
-   rect(45,30,d,10);
+   rect(45,30,d,15);
    // your code
 x +=2;
-x%=480;
+x%=500;
 }
