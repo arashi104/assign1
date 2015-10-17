@@ -29,15 +29,15 @@ void setup () {
 
 void draw() {
 
-  fill(255,0,0);
-   rect(45,30,d,15);
+  
    image(bg1Img,0,0);
    image(fighterImg,580,200);
-   image(hpImg,30,20);
    image(treasureImg,a,b);
    image(enemyImg,x,c);
-   
-  
+   image(hpImg,30,20);
+  fill(255,0,0);
+   rect(45,30,d,15);
+    
    // your code
 x +=2;
 x%=650;
